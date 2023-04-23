@@ -1,0 +1,123 @@
+body {
+    font-family: 'Bruno Ace', cursive;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/Fondo.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  .container {
+    max-width: 1190px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+    background-color: #777777;
+    border-radius: 30px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: beige;
+  }
+  
+  h1 a {
+    color: beige;
+  }
+
+  .titulo{
+    margin-top: 100px;
+  }
+  
+  .hr{
+    text-align: center; 
+    color:beige;
+  }
+
+  .form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .input-field {
+    flex-grow: 1;
+    margin-right: 20px;
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-field:focus {
+    outline: none;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  }
+  
+  .add-task-button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+  }
+  
+  .add-task-button:hover {
+    background-color: #3e8e41;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+  }
+  
+  .task:hover {
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  }
+  
+  .task-text {
+    flex-grow: 1;
+    margin-right: 20px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .delete-task-button {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+  }
+  
+  .delete-task-button:hover {
+    background-color: #e53935;
+  }
